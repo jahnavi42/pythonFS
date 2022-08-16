@@ -1,0 +1,79 @@
+.container {
+    background-color: #f1f1f1;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30vw;
+    margin: auto;
+  }
+  .c1 {
+    margin: 10px 10px 5px 10px;
+    height: 7vh;
+  }
+  .c2 {
+    margin: 0px 10px 0px 0px;
+  }
+  .c2-a {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 10px 0px 10px 10px;
+    height: 7vh;
+  }
+  .c2-a-1 {
+    margin: 2px 2px 5px 12px;
+  }
+  .c2-a-1-1 {
+    margin: auto;
+  }
+  .c2-a-img,
+  .c {
+    margin: 10px;
+  }
+  .cross {
+    height: 2vh;
+    width: 2vw;
+    margin: 7px auto auto auto;
+  }
+  .drop {
+    height: 2vh;
+    width: 2vw;
+    margin: 20px auto auto auto;
+  }
+  .c3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .c3-a,
+  .c3-c,
+  .c3-d,
+  .c3-e {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .c3-a,
+  .c3-c {
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .c3-b,
+  .c3-d,
+  .c3-e {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 10px 10px;
+    gap: 10px;
+    height: 10vh;
+  }
+  .c3-b-2 {
+    height: 6vh;
+  }
