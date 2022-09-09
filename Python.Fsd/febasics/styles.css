@@ -1,0 +1,36 @@
+.heading{
+    color: aqua;
+    font-size: 10vh;
+    
+}
+.name{
+    font-size: 10vh;
+    font-family: 'Lato', sans-serif;
+    width: fit-content;
+    background-color: aqua;
+    box-shadow: 10px 10px 15px;
+    border-radius: 2vh;
+    border: 2px solid #555;
+}
+.normal-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly  ;
+}
+.hu{
+    height: 5vh;
+    width: 5vw;
+    background-color: blueviolet; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

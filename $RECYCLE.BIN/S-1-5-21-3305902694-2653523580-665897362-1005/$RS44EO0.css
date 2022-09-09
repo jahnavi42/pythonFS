@@ -1,0 +1,58 @@
+:root{
+    --font: "Roboto",sans-serif;
+  }
+  .card-border{
+    height:70vh;
+    width:30vw;
+    border:0.2vh solid grey;
+    border-radius: 1vh;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 10% 40%;
+  }
+  .blackshirt{
+    height:90%;
+    width: 80%;
+    margin:auto;
+    grid-column:1/span 2;
+    border-radius: 1vh;
+  }
+  .title{
+    font-size:2vh;
+    font-weight: 600;
+    margin:0 2vh;
+    grid-column: 1 / span 2;
+    font-family: "Roboto",sans-serif;
+  }
+  .vertical-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vh;
+  }
+  .title-bold{
+    font-family: var(--font);
+    margin: 0;
+    font-weight: 600;
+    font-size: 3.2vh;
+  }
+  .title-Normal{
+    font-family: var(--font);
+    margin: 0;
+    font-size: 3vh;
+    font-weight: 100;
+  }
+  .cart-icon{
+    height: 3vh;
+    width: 3vh;
+    margin: 0;
+  }
+  .cart-container{
+    height:fit-content;
+    width: fit-content;
+    background-color: grey;
+    padding: 1vh;
+    border-radius: 1vh;
+    margin: auto;
+  }

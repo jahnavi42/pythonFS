@@ -1,0 +1,35 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 10vh;
+}
+.cell-1{
+    background-color: aqua;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+.cell-2{
+    background-color: red;
+    grid-column: 2/span 2;
+    grid-row: 1/span 1;
+}
+.cell-3{
+    background-color: blueviolet;
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+.cell-4{
+    background-color: green;
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+}
+.cell-5{
+    background-color: orange;
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+}
+.cell-6{
+    background-color: grey;
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+}
