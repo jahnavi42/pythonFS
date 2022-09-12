@@ -1,0 +1,28 @@
+.gridcontainer{
+    height:50vh;
+    width:50vw;
+    border: 1px solid black;
+    margin: 2vh;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    box-shadow: 0 0 10px #000000;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+}
+.icon{
+    height: 10vh;
+    width: 10vh;
+    margin: auto;
+}
+.def-font{
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    color:#636369;
+    font-weight: 500;
+}
+.design{
+    color:#727175;
+    font-weight: 500;
+}
