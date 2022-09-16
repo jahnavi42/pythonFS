@@ -1,11 +1,9 @@
-.head{
-    text-align: center;
-}
-.headi{
-    text-align: center;
-    color: blueviolet;
-
-}
-.line{
-    width: 100%;
+.google{
+    height:5vh;
+    width:5vw;
+    margin:auto;
+    border:1px solid black;
+    box-shadow: 0 0 10px #000000;;
+    cursor:pointer;
+    
 }
